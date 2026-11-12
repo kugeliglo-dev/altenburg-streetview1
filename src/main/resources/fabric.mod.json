@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "altenburgstreetview",
+  "version": "${version}",
+  "name": "Altenburg Street View",
+  "description": "Zeigt Strassenfotos von Altenburg (Thueringen) in einem Fenster im Spiel und misst Entfernungen.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.altenburg.streetview.AltenburgStreetViewClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
